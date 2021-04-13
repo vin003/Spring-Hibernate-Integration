@@ -5,6 +5,7 @@
     	
     
     <persistence-unit name="emp">
+    <mapping-file>Employee.xml</mapping-file>
     <properties>
     <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver"/>
     <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@localhost:1521:xe"/>
